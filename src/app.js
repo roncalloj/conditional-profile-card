@@ -41,12 +41,6 @@ window.onload = function() {
     masoDown.style.color = masoUp.style.color = numeroStyle.style.color =
       "black";
 
-  const AddMaso = () => {
-    firstH1 = document.createElement("h1");
-    firstH1.innerHTML = maso[indexMaso];
-    return firstH1;
-  };
-
   let firstH1 = document.createElement("h1");
   firstH1.innerHTML = maso[indexMaso];
   masoUp.append(firstH1);
